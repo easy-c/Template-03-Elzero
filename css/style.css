@@ -30,7 +30,11 @@
     .go-up a  i {
         color: white;
         font-size: 20px;
-    
+    }
+}
+@media (max-width:1439px) {
+    .go-up a  i {
+        display: none;
     }
 }
 /* Go to Top */
@@ -363,6 +367,8 @@ header .container .other ul.other-links li i {
 header .container .other ul.other-links li a {
     color: var(--mainColor);
     position: relative;
+    display: block;
+    width: 100%;
 }
 /* header */
 
